@@ -1,0 +1,82 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.header__inner {
+  width: 100%;
+  max-width: 1219px;
+  padding: 0 16px;
+}
+
+.header {
+  width: 100%;
+  height: 56px;
+  background: #343a40;
+}
+
+.nav__link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 56px;
+  margin-right: 24px;
+  transition: 0.2s;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.nav__link:first-child {
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.nav__link:active {
+  text-decoration: underline;
+  color: #ddcb67da;
+}
+
+/*============ЗДЕСЬ ПОРТФОЛИО==========
+======================================*/
+
+.portfolio {
+  background: #e9ecef;
+}
+
+.portfolio .container {
+  padding: 0;
+  margin: 0 49px;
+}
+
+.row {
+  height: 342px;
+}
+
+.head {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 84px;
+
+  color: #212529;
+}
+
+.head__text {
+  width: 635px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #212529;
+}
