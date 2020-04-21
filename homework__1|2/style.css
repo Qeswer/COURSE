@@ -1,0 +1,47 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+}
+
+.header {
+    font-size: 32px;
+}
+
+h2 {
+    margin-top: 1.5em;
+}
+
+.img {
+    float: right;
+    font-style: italic;
+}
+
+.indent {
+    margin-right: 35%;
+}
+
+.found {
+    margin-top: 4.5em;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+table {
+    margin-left: 4%;
+}
+
+#indent {
+    margin-top: 0em;
+    margin-left: 4%;
+}
+
+.word {
+    font-size: 20px;
+    font-weight: bolder;
+}
